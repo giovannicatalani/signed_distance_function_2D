@@ -9,10 +9,10 @@ Two main classes:
   This class handles individual 2D polygon geometries. It provides functions to:
   - Compute the SDF for a given set of points relative to the polygon using a vectorized algorithm.
   - Sample points around the polygon by combining uniform sampling from an extended bounding box and perturbations around the polygon vertices.
+![Multi-Element Airfoil](images/single.png)
 
-![Element Airfoil](images/multi.png)
 
 - **MultiplePolygons**:  
   This class allows you to work with multiple `Polygon` objects simultaneously. It computes a combined SDF (representing the union of the geometries) by taking the minimum SDF value at each point across all provided polygons. It also supports sampling points around the union of all polygons.
 
-![Multi-Element Airfoil](images/single.png)
+![Element Airfoil](images/multi.png)
