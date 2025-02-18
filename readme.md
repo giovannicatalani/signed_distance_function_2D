@@ -1,4 +1,4 @@
-# Siugned Distance Function in 2D 
+# Signed Distance Function in 2D 
 
 This repository provides a simple implementation to compute Signed Distance Fields (SDFs) for 2D geometries defined as polygons. It is designed with flexibility in mind so that it can be used for multiple objects defined as polygons. In the example provided, we demonstrate its usage on a multi-element airfoil, where the airfoil is composed of a main element and a flap.
 
